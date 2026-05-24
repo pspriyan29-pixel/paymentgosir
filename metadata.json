@@ -1,0 +1,6 @@
+{
+  "name": "Gosir",
+  "description": "Platform Payment Link instan untuk QRIS dan Virtual Account. Memudahkan merchant menerima pembayaran tanpa biaya berlangganan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-neon: #00FF5F;
+  --color-ink: #0A0A0A;
+  --color-paper: #F2F2F2;
+  --shadow-brutal: 4px 4px 0px 0px rgba(10, 10, 10, 1);
+  --shadow-brutal-lg: 8px 8px 0px 0px rgba(10, 10, 10, 1);
+}
+
+/* Custom Brutalist Styling Rules */
+.brutal-border {
+  border: 3px solid #0A0A0A !important;
+}
+
+.brutal-border-thin {
+  border: 2px solid #0A0A0A !important;
+}
+
+.brutal-border-sm {
+  border: 1px solid #0A0A0A !important;
+}
+
+.brutal-shadow {
+  box-shadow: 4px 4px 0px 0px #0A0A0A !important;
+}
+
+.brutal-shadow-lg {
+  box-shadow: 8px 8px 0px 0px #0A0A0A !important;
+}
+
+.brutal-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #0A0A0A !important;
+}
+
+.grid-bg {
+  background-color: #F2F2F2;
+  background-image: radial-gradient(circle, #C2C2C2 1.5px, transparent 1.5px) !important;
+  background-size: 24px 24px !important;
+}
+
+.pill {
+  border: 2px solid #0A0A0A;
+  border-radius: 999px;
+  padding: 4px 16px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 850;
+  letter-spacing: 0.05em;
+}
+
+.brutal-text-stroke {
+  -webkit-text-stroke: 2.5px #0A0A0A;
+  color: transparent;
+}
+
+.brutal-text-stroke-white {
+  -webkit-text-stroke: 1.5px #ffffff;
+  color: transparent;
+}
+
+/* Base custom styles to reinforce Neo-brutalist aesthetics */
+body {
+  background-color: #F2F2F2;
+  color: #0A0A0A;
+}
+
+/* Style default scrollbars to match */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2F2F2;
+  border-left: 2px solid #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0A0A0A;
+  border: 2px solid #F2F2F2;
+}
